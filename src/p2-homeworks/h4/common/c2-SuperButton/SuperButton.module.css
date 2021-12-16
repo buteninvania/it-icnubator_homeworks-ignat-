@@ -1,0 +1,51 @@
+/******************Common styles for buttons*******************/
+
+button {
+    border: none;
+    background-color: #378c8c;
+    color: #cce4ec;
+    border-radius: 3px;
+    transition: .3s;
+    cursor: pointer;
+    text-shadow: 1px 1px 4px #544545;
+    font-size: 20px;
+    padding: 1px 10px;
+}
+
+button:hover {
+    background-color: #16c9c9;
+}
+
+/**************************************************************/
+
+.default {
+    background-color: #378c8c;
+}
+
+.default:hover {
+    background-color: #16c9c9;
+}
+
+.high {
+    background: #702e2e;
+}
+
+.high:hover {
+    background: #fc0101;
+}
+
+.middle {
+    background: #80773d;
+}
+
+.middle:hover {
+    background: #f5d503;
+}
+
+.low {
+    background: #407343;
+}
+
+.low:hover {
+    background: #87f803;
+}
