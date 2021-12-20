@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Error404() {
+    debugger
     return (
         <div>
             <div>404</div>
