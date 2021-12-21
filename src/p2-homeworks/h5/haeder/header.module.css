@@ -1,0 +1,49 @@
+@keyframes openHeader {
+    0% {
+        left: -200px
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes closeHeader {
+    0% {
+        left: 0
+    }
+
+    100% {
+        left: -200px;
+    }
+}
+
+.linksList {
+    width: 100%;
+    animation-duration: .5s;
+    left: -200px;
+    position: relative;
+}
+
+.linksList a {
+    text-decoration: none;
+    color: #0b1c1c;
+    transition: .2s;
+    background-color: #109a67;
+    padding: 3px;
+    margin-left: 4px;
+}
+
+.linksList a:hover {
+    text-decoration: none;
+    color: #56f3f3;
+}
+
+.control {
+    display: inline-block;
+    cursor: pointer;
+    padding: 3px;
+    background-color: #109a67;
+    margin-bottom: 10px;
+}
+
