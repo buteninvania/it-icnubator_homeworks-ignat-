@@ -8,8 +8,8 @@ export const Header = () => {
 
     return (
         <div className={s.wrapper}>
-            <div className={s.control} onClick={() => setIsShowHeader(!isShowHeader)}>{!isShowHeader ? "Открыть ссылки" : "Закрыть ссылки"}</div>
-            <div className={s.linksList} style={isShowHeader ? {animationName:s.openHeader, left: 0} : {animationName:s.closeHeader, left: -200}}>
+            <div className={s.control} onClick={() => setIsShowHeader(true)}>Открыть</div>
+            <div className={s.linksList} >
                 <NavLink to={'/pre-junior'}>Pre-junior</NavLink>
                 <NavLink to={'/junior'}>Junior</NavLink>
                 <NavLink to={'/junior-plus'}>Junior+</NavLink>
@@ -17,3 +17,4 @@ export const Header = () => {
         </div>
     )
 }
+
